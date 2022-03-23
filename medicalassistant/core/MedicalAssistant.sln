@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalAssistant.SurveyCovid.App", "MedicalAssistant.SurveyCovid.App\MedicalAssistant.SurveyCovid.App.csproj", "{C9F123EF-E4F7-4307-8343-F3DDF9A02F57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalAssistant.SurveyCovid.Entitis", "MedicalAssistant.SurveyCovid.Entitis\MedicalAssistant.SurveyCovid.Entitis.csproj", "{6174577B-2906-4685-9C3C-AFC80F4AC87E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalAssistant.SurveyCovid.Context", "MedicalAssistant.SurveyCovid.Context\MedicalAssistant.SurveyCovid.Context.csproj", "{29A5083C-2052-40BE-A92B-51281292850D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalAssistant.SurveyCovid.AccessData", "MedicalAssistant.SurveyCovid.AccessData\MedicalAssistant.SurveyCovid.AccessData.csproj", "{F59B9494-3721-4379-BEC3-12D5689EA80F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6174577B-2906-4685-9C3C-AFC80F4AC87E} = {6174577B-2906-4685-9C3C-AFC80F4AC87E}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalAssistant.SurveyCovid.Contracts", "MedicalAssistant.SurveyCovid.Contracts\MedicalAssistant.SurveyCovid.Contracts.csproj", "{C5D90FA6-0C76-49CC-A8A3-0E52FF995210}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalAssistant.SurveyCovid", "MedicalAssistant.SurveyCovid\MedicalAssistant.SurveyCovid.csproj", "{1B021965-77FE-4CB7-A8B6-8ED9A058F395}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{B917217D-7B02-4CD0-9505-3090A271452D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalAssistant.AspNetCommon", "MedicalAssistant.AspNetCommon\MedicalAssistant.AspNetCommon.csproj", "{BC125B9A-A452-4D34-8F08-EC65ABD13116}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalAssistant.Common", "MedicalAssistant.Common\MedicalAssistant.Common.csproj", "{7D7B67A0-4B18-48F2-B1FE-59A6FB77FE7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9F123EF-E4F7-4307-8343-F3DDF9A02F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F123EF-E4F7-4307-8343-F3DDF9A02F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F123EF-E4F7-4307-8343-F3DDF9A02F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F123EF-E4F7-4307-8343-F3DDF9A02F57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6174577B-2906-4685-9C3C-AFC80F4AC87E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6174577B-2906-4685-9C3C-AFC80F4AC87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6174577B-2906-4685-9C3C-AFC80F4AC87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6174577B-2906-4685-9C3C-AFC80F4AC87E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A5083C-2052-40BE-A92B-51281292850D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A5083C-2052-40BE-A92B-51281292850D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A5083C-2052-40BE-A92B-51281292850D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A5083C-2052-40BE-A92B-51281292850D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59B9494-3721-4379-BEC3-12D5689EA80F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59B9494-3721-4379-BEC3-12D5689EA80F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59B9494-3721-4379-BEC3-12D5689EA80F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59B9494-3721-4379-BEC3-12D5689EA80F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D90FA6-0C76-49CC-A8A3-0E52FF995210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D90FA6-0C76-49CC-A8A3-0E52FF995210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D90FA6-0C76-49CC-A8A3-0E52FF995210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D90FA6-0C76-49CC-A8A3-0E52FF995210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B021965-77FE-4CB7-A8B6-8ED9A058F395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B021965-77FE-4CB7-A8B6-8ED9A058F395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B021965-77FE-4CB7-A8B6-8ED9A058F395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B021965-77FE-4CB7-A8B6-8ED9A058F395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC125B9A-A452-4D34-8F08-EC65ABD13116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC125B9A-A452-4D34-8F08-EC65ABD13116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC125B9A-A452-4D34-8F08-EC65ABD13116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC125B9A-A452-4D34-8F08-EC65ABD13116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D7B67A0-4B18-48F2-B1FE-59A6FB77FE7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7B67A0-4B18-48F2-B1FE-59A6FB77FE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D7B67A0-4B18-48F2-B1FE-59A6FB77FE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7B67A0-4B18-48F2-B1FE-59A6FB77FE7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC125B9A-A452-4D34-8F08-EC65ABD13116} = {B917217D-7B02-4CD0-9505-3090A271452D}
+		{7D7B67A0-4B18-48F2-B1FE-59A6FB77FE7A} = {B917217D-7B02-4CD0-9505-3090A271452D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35278C08-F1A8-49F0-BBC4-6923D88B93EC}
+	EndGlobalSection
+EndGlobal

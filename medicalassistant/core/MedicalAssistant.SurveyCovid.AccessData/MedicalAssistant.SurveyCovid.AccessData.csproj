@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.1.0" />
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="3.1.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MedicalAssistant.AspNetCommon\MedicalAssistant.AspNetCommon.csproj" />
+    <ProjectReference Include="..\MedicalAssistant.Common\MedicalAssistant.Common.csproj" />
+    <ProjectReference Include="..\MedicalAssistant.SurveyCovid.Context\MedicalAssistant.SurveyCovid.Context.csproj" />
+    <ProjectReference Include="..\MedicalAssistant.SurveyCovid.Entitis\MedicalAssistant.SurveyCovid.Entitis.csproj" />
+  </ItemGroup>
+
+</Project>

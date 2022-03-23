@@ -1,0 +1,32 @@
+version: "3.8"
+
+services:
+  seq:
+    image: datalust/seq:latest
+    environment:
+      ACCEPT_EULA: Y
+    restart: unless-stopped
+    volumes:
+      - seq-data:/data
+    ports:
+      - 3001:80
+      - 5341:5341
+
+  sql-server:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    ports:
+      - "1433:1433"
+    restart: unless-stopped
+    volumes:
+      - sql-server-data:/data
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=PGM@210439
+      - MSSQL_PID=Express
+
+volumes:
+  seq-data:
+  sql-server-data:
+
+networks:
+  default:
